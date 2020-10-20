@@ -19,6 +19,22 @@ body {
 p{font-style: italic;}
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header header"
+      "navegacion parrafo parrafo"
+      "navegacion multimedia multimedia"
+      "piePag piePag piePag";
+  }
+  .header { grid-area: header; }
+  .navegacion { grid-area: navegacion; }
+  .parrafo { grid-area: parrafo; }
+  .multimedia { grid-area: multimedia; }
+  .piePag { grid-area: piePag; }
 
 
 
