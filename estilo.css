@@ -1,50 +1,24 @@
+
 h1 {
-    color: rgb(87, 10, 87);
+    background-color: rgb(141, 16, 141); 
+    color: rgb(245, 240, 245);
     font-weight: bolder;
-    text-align: center;
-    padding: 100px 25px;
+    text-align: center; 
+    padding: 150px 25px;   
 }
 
-
-h2 {
-    color: rgb(129, 11, 129);
-    font-weight: bold;
-    padding: 60px 25px;
+h2{
+    color: rgb(12, 8, 12);
 }
 
-h3 {
-    color: rgb(177, 22, 177);
+body {
+    font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color: rgb(121, 114, 121);
 }
-
-caption {
-    color: rgb(216, 25, 216);
-    font-weight: bold;
-    font-size: larger;
-}
-
-th {
-    color:  rgb(247, 65, 247);
-}
-
-
-
-
-
-
-
 
 
 p{font-style: italic;}
-
-
-
-
-
-body{line-height: 2;}
-
-
-
-
 
 
 
