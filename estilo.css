@@ -1,0 +1,61 @@
+h1 {
+    color: rgb(87, 10, 87);
+    font-weight: bolder;
+    text-align: center;
+    padding: 100px 25px;
+}
+
+
+h2 {
+    color: rgb(129, 11, 129);
+    font-weight: bold;
+    padding: 60px 25px;
+}
+
+h3 {
+    color: rgb(177, 22, 177);
+}
+
+caption {
+    color: rgb(216, 25, 216);
+    font-weight: bold;
+    font-size: larger;
+}
+
+th {
+    color:  rgb(247, 65, 247);
+}
+table {
+    background-color: rgb(243, 247, 250);
+}
+
+
+
+
+
+
+
+
+p{font-style: italic;}
+
+
+
+
+
+body{line-height: 2;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
