@@ -1,4 +1,5 @@
 
+/* Especificidad (0, 0, 1)*/
 h1 {
     background-color: rgb(141, 16, 141); 
     color: rgb(245, 240, 245);
@@ -8,17 +9,17 @@ h1 {
 }
 
 
-
+/* Especificidad (0, 0, 1)*/
 body {
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
     color: rgb(121, 114, 121);
 }
 
-
+/* Especificidad (0, 0, 1)*/
 p{font-style: italic;}
 
-
+/* Especificidad (0, 1, 0)*/
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,11 +31,16 @@ p{font-style: italic;}
       "navegacion multimedia multimedia"
       "piePag piePag piePag";
   }
-  .header { grid-area: header; }
-  .navegacion { grid-area: navegacion; }
-  .parrafo { grid-area: parrafo; }
-  .multimedia { grid-area: multimedia; }
-  .piePag { grid-area: piePag; }
+  /* Especificidad (0, 1, 0)*/
+  .header { grid-area: header; } 
+  /* Especificidad (0, 1, 0)*/
+  .navegacion { grid-area: navegacion; } 
+  /* Especificidad (0, 1, 0)*/
+  .parrafo { grid-area: parrafo; } 
+  /* Especificidad (0, 1, 0)*/
+  .multimedia { grid-area: multimedia; } 
+  /* Especificidad (0, 1, 0)*/
+  .piePag { grid-area: piePag; } 
 
 
 
