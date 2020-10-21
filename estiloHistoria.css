@@ -1,0 +1,38 @@
+
+h1 {
+    background-color: rgb(141, 16, 141); 
+    color: rgb(245, 240, 245);
+    font-weight: bolder;
+    text-align: center; 
+    padding: 150px 25px;   
+}
+
+
+
+body {
+    font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color: rgb(121, 114, 121);
+}
+
+
+p{font-style: italic;}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.15fr 1fr 0.5fr 0.02fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header header"
+      "navegacion parrafo parrafo"
+      "navegacion multimedia multimedia"
+      "piePag piePag piePag";
+  }
+  .header { grid-area: header; }
+  .navegacion { grid-area: navegacion; }
+  .parrafo { grid-area: parrafo; }
+  .multimedia { grid-area: multimedia; }
+  .piePag { grid-area: piePag; }
+
