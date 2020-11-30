@@ -1,0 +1,31 @@
+body{
+	background-color:lightgrey;
+    color:black;
+}
+
+
+h1 {
+    color: rgb(102, 6, 102);
+	text-align: left;
+}
+
+h2 {
+    color:rgb(153, 0, 255);
+	text-align: left;
+}
+
+h3 {
+    color: darkorchid;
+	text-align: left;
+}
+
+h4 {
+    color:rgb(163, 56, 163);
+	text-align: left;
+}
+
+
+p {
+    color:black;
+}
+
