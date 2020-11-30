@@ -1,8 +1,8 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 3em 3em 3em 3em;
-    grid-template-rows: 3em 3em 3em 3em 3em 3em 3em 3em 3em;
-    gap: 0px 0px;
+    grid-template-columns: 6em 6em 6em 6em;
+    grid-template-rows: 6em 6em 6em 6em 6em 6em 6em 6em 6em;
+    gap: 0em 0em;
     grid-template-areas:
       "resultado resultado resultado resultado"
       "sen  cos tg  pi"
