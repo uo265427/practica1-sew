@@ -97,8 +97,8 @@ class Meteo {
                         stringDatos += "<li>Fecha de la medida: " + fechaMedidaLocal + "</li>";
                     
                     
-                        $("p").append("<h3>Datos:</h3>");
-                        $("p").append(stringDatos);    
+                        $(".resultadoString").append("<h3>Datos:</h3>");
+                        $(".resultadoString").append(stringDatos);    
                                   
                 },
             error:function(){
