@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Calculadora básica</title>
+		<link rel="stylesheet" href="CalculadoraBasica.css"/>
+		<script src="CalculadoraBasica.js"></script>
+	</head>
+
+	<body> 
+        <h1>Calculadora básica</h1>
+		<main class="grid-container"> 
+            <input class="resultado" type="text" id="resultado" disabled=""/>
+               		
+			<input class="mrc" type="button" id="mrc" 	value="MRC" onclick="calculadora.mrc()"/>
+			<input class="memmen" type="button" id="m-" 	value="M-" onclick="calculadora.mMenos()"/>
+			<input class="memadd" type="button" id="m+" 	value="M+" onclick="calculadora.mMas()"/>
+			<input class="division" type="button" id="division" 	value="/" onclick="calculadora.division()"/>
+			
+			<input class="siete" type="button" id="siete" value="7" onclick="calculadora.digitos(7)"/>
+			<input class="ocho" type="button" id="ocho" 		value="8" onclick="calculadora.digitos(8)"/>
+			<input class="nueve" type="button" id="nueve" value="9" onclick="calculadora.digitos(9)"/>
+			<input class="multiplicacion" type="button" id="multiplicacion" 	value="*" onclick="calculadora.multiplicacion()"/>
+			
+			<input class="cuatro" type="button" id="cuatro" value="4" onclick="calculadora.digitos(4)"/>
+			<input class="cinco" type="button" id="cinco" value="5" onclick="calculadora.digitos(5)"/>
+			<input class="seis" type="button" id="seis" 	value="6" onclick="calculadora.digitos(6)"/>
+			<input class="menos" type="button" id="menos" 	value="-" onclick="calculadora.resta()"/>
+			
+			<input class="uno" type="button" id="uno" 	value="1" onclick="calculadora.digitos(1)"/>
+			<input class="dos" type="button" id="dos" 	value="2" onclick="calculadora.digitos(2)"/>
+			<input class="tres" type="button" id="tres" 	value="3" onclick="calculadora.digitos(3)"/>
+			<input class="mas" type="button" id="mas" 	value="+" onclick="calculadora.suma()"/>
+			
+			<input class="cero" type="button" id="cero" 	value="0" onclick="calculadora.digitos(0)"/>
+			<input class="punto" type="button" id="punto" 	value="." onclick="calculadora.punto()"/>
+			<input class="c" type="button" id="c" 	value="C" onclick="calculadora.borrar()"/>
+			<input class="igual" type="button" id="igual" value="=" onclick="calculadora.igual()"/>
+        </main>
+	</body>
+</html>

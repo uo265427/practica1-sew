@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title>Ejercicio 8</title> 
+        <link rel="stylesheet" type="text/css" href="Ejercicio8.css" />
+        <meta charset= "UTF-8" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src = "Ejercicio8.js"></script>
+    </head>
+    
+    <body>
+
+        <header>
+            <h1 class = "tituloh1">Datos meteorológicos</h1>
+        </header>
+
+        <main>
+            <section>
+                
+                <h2>Messaria (Santorini)</h2>               
+                <input type="button" id="tiempoMessaria" 	value="Ver tiempo en Messaria"	onclick="tarea.cargarDatos('Mesariá', true)"/>
+                <input type="button" id="tiempoMessaria" 	value="Ver JSON de Messaria"	onclick="tarea.cargarDatos('Mesariá', false)"/> 
+            </section>
+
+            <section>
+                
+                <h2>Fira (Santorini)</h2>               
+                <input type="button" id="tiempoFira" 	value="Ver tiempo en Fira"	onclick="tarea.cargarDatos('Firá', true)"/>
+                <input type="button" id="tiempoFira" 	value="Ver JSON de Fira"	onclick="tarea.cargarDatos('Firá', false)"/> 
+            </section>
+
+
+            <section>
+                
+                <h2>Pyrgos (Santorini)</h2>               
+                <input type="button" id="tiempoPyrgos" 	value="Ver tiempo en Pyrgos"	onclick="tarea.cargarDatos('Pyrgos', true)"/>
+                <input type="button" id="tiempoPyrgos" 	value="Ver JSON de Pyrgos"	onclick="tarea.cargarDatos('Pyrgos', false)"/> 
+            </section>
+
+            <section>
+                <h2> VISUALIZACIÓN DE LOS DATOS:</h2>
+                <p class = "resultado"></p>
+            </section>
+
+            
+            
+
+        </main>
+
+        <footer class="piePag">
+            <p>
+                Copyright @2020 María Luisa Grande 
+            </p>
+        </footer>
+
+    </body>
+
+</html>

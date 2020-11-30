@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title>Ejercicio 9</title> 
+        <link rel="stylesheet" type="text/css" href="Ejercicio9.css" />
+        <meta charset= "UTF-8" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src = "Ejercicio9.js"></script>
+    </head>
+    
+    <body>
+
+        <header>
+            <h1 class = "tituloh1">Datos meteorológicos</h1>
+        </header>
+
+        <main>
+            <section>
+                
+                <h2>Edimburgo</h2>               
+                <input type="button" id="tiempoEdimburgo" 	value="Ver tiempo en Edimburgo"	onclick="meteo.verXML('Edimburg')"/>
+               
+            </section>
+
+            <section>
+                
+                <h2>Falkland</h2>               
+                <input type="button" id="tiempoFalkland" 	value="Ver tiempo en Falkland"	onclick="meteo.verXML('Falkland')"/>
+               
+            </section>
+
+            <section>
+                
+                <h2>Inverness</h2>               
+                <input type="button" id="tiempoInverness" 	value="Ver tiempo en Inverness"	onclick="meteo.verXML('Inverness')"/>
+               
+            </section>
+
+            <section>
+                
+                <h2>Blackness</h2>               
+                <input type="button" id="tiempoBlackness" 	value="Ver tiempo en Blackness"	onclick="meteo.verXML('Blackness')"/>
+               
+            </section>
+
+            <section>
+                
+                <h2>Glasgow</h2>               
+                <input type="button" id="tiempoGlasgow" 	value="Ver tiempo en Glasgow"	onclick="meteo.verXML('Glasgow')"/>
+               
+            </section>
+
+            
+            <section>
+                <h2> VISUALIZACIÓN DE LOS DATOS:</h2>
+                <h3 class = "inicioXML"></h3>
+                <h4 class = "xml"> </h4>
+                <p class = "resultadoString"></p>
+            </section>
+
+            
+            
+
+        </main>
+
+        <footer class="piePag">
+            
+                Copyright @2020 María Luisa Grande 
+            
+        </footer>
+
+    </body>
+
+</html>

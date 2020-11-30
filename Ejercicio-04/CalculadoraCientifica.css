@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 3em 3em 3em 3em;
+    grid-template-rows: 3em 3em 3em 3em 3em 3em 3em 3em 3em;
+    gap: 0px 0px;
+    grid-template-areas:
+      "resultado resultado resultado resultado"
+      "sen  cos tg  pi"
+      "cuadrado cubo    raiz    log"
+      "mrc  memadd  memmen  memclear"
+      "abrepar  cierrapar   exp division"
+      "siete ocho nueve multiplicacion"
+      "cuatro cinco seis menos"
+      "uno dos tres mas"
+      "cero punto c igual";
+    
+  }
+  .sen { grid-area: sen}
+  .cos { grid-area: cos}
+  .tg { grid-area: tg}
+  .pi { grid-area: pi}
+  .cuadrado { grid-area: cuadrado}
+  .cubo { grid-area: cubo}
+  .raiz { grid-area: raiz}
+  .log { grid-area: log}
+  .memclear { grid-area: memclear}
+  .abrepar { grid-area: abrepar}
+  .cierrapar { grid-area: cierrapar}
+  .exp { grid-area: exp}
+  .resultado { grid-area: resultado;}
+  .mrc { grid-area: mrc; }
+  .memmen { grid-area: memmen; }
+  .memadd { grid-area: memadd; }
+  .division { grid-area: division; }
+  .siete { grid-area: siete; background-color: rgb(134, 224, 252);}
+  .ocho { grid-area: ocho; background-color: rgb(134, 224, 252);}
+  .nueve { grid-area: nueve; background-color:rgb(134, 224, 252);}
+  .multiplicacion { grid-area: multiplicacion; }
+  .cuatro { grid-area: cuatro; background-color:rgb(134, 224, 252);}
+  .cinco { grid-area: cinco; background-color: rgb(134, 224, 252);}
+  .seis { grid-area: seis; background-color: rgb(134, 224, 252);}
+  .menos { grid-area: menos; }
+  .uno { grid-area: uno; background-color: rgb(134, 224, 252);}
+  .dos { grid-area: dos; background-color:rgb(134, 224, 252);}
+  .tres { grid-area: tres; background-color: rgb(134, 224, 252);}
+  .mas { grid-area: mas; }
+  .cero { grid-area: cero; background-color:rgb(134, 224, 252);}
+  .punto { grid-area: punto; }
+  .c { grid-area: c; }
+  .igual { grid-area: igual; }

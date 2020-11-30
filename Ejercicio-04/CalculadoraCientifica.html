@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Calculadora científica</title>
+		<link rel="stylesheet" href="CalculadoraCientifica.css"/>
+		<script src="CalculadoraCientifica.js"></script>
+	</head>
+
+	<body> 
+        <h1>Calculadora Científica</h1>
+		<main class="grid-container"> 
+            <input class="resultado" type="text" id="resultado" disabled=""/>
+                       
+            <input class="sen" type="button" id="sen" 	value="sen" onclick="calculadoraCientifica.sen()"/>
+            <input class="cos" type="button" id="cos" 	value="cos" onclick="calculadoraCientifica.cos()"/>
+            <input class="tg" type="button" id="tg" 	value="tg" onclick="calculadoraCientifica.tg()"/>
+            <input class="pi" type="button" id="pi" 	value="&#928;" onclick="calculadoraCientifica.pi()"/>
+
+            <input class="cuadrado" type="button" id="cuadrado" 	value="x^2" onclick="calculadoraCientifica.cuadrado()"/>
+            <input class="cubo" type="button" id="cubo" 	value="x^3" onclick="calculadoraCientifica.cubo()"/>
+            <input class="raiz" type="button" id="raiz" 	value="&radic;" onclick="calculadoraCientifica.raiz()"/>
+            <input class="log" type="button" id="log" 	value="log" onclick="calculadoraCientifica.log()"/>
+
+            <input class="mrc" type="button" id="mrc" 	value="MRC" onclick="calculadoraCientifica.mrc()"/>
+            <input class="memadd" type="button" id="m+" 	value="M+" onclick="calculadoraCientifica.mMas()"/>
+			<input class="memmen" type="button" id="m-" 	value="M-" onclick="calculadoraCientifica.mMenos()"/>
+            <input class="memclear" type="button" id="mc" 	value="MC" onclick="calculadoraCientifica.mc()"/>
+
+            <input class="abrepar" type="button" id="abrepar" 	value="(" onclick="calculadoraCientifica.abrePar()"/>
+            <input class="cierrapar" type="button" id="cierrapar" 	value=")" onclick="calculadoraCientifica.cierraPar()"/>
+            <input class="exp" type="button" id="exp" 	value="exp" onclick="calculadoraCientifica.exp()"/>
+			<input class="division" type="button" id="division" 	value="/" onclick="calculadoraCientifica.division()"/>
+			
+			<input class="siete" type="button" id="siete" value="7" onclick="calculadoraCientifica.digitos(7)"/>
+			<input class="ocho" type="button" id="ocho" 		value="8" onclick="calculadoraCientifica.digitos(8)"/>
+			<input class="nueve" type="button" id="nueve" value="9" onclick="calculadoraCientifica.digitos(9)"/>
+			<input class="multiplicacion" type="button" id="multiplicacion" 	value="*" onclick="calculadoraCientifica.multiplicacion()"/>
+			
+			<input class="cuatro" type="button" id="cuatro" value="4" onclick="calculadoraCientifica.digitos(4)"/>
+			<input class="cinco" type="button" id="cinco" value="5" onclick="calculadoraCientifica.digitos(5)"/>
+			<input class="seis" type="button" id="seis" 	value="6" onclick="calculadoraCientifica.digitos(6)"/>
+			<input class="menos" type="button" id="menos" 	value="-" onclick="calculadoraCientifica.resta()"/>
+			
+			<input class="uno" type="button" id="uno" 	value="1" onclick="calculadoraCientifica.digitos(1)"/>
+			<input class="dos" type="button" id="dos" 	value="2" onclick="calculadoraCientifica.digitos(2)"/>
+			<input class="tres" type="button" id="tres" 	value="3" onclick="calculadoraCientifica.digitos(3)"/>
+			<input class="mas" type="button" id="mas" 	value="+" onclick="calculadoraCientifica.suma()"/>
+			
+			<input class="cero" type="button" id="cero" 	value="0" onclick="calculadoraCientifica.digitos(0)"/>
+			<input class="punto" type="button" id="punto" 	value="." onclick="calculadoraCientifica.punto()"/>
+			<input class="c" type="button" id="c" 	value="C" onclick="calculadoraCientifica.borrar()"/>
+			<input class="igual" type="button" id="igual" value="=" onclick="calculadoraCientifica.igual()"/>
+        </main>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>API File: Leer un archivo de texto</title>
+        <script src = "Ejercicio12.js"></script>
+        <link rel="stylesheet" type="text/css" href="Ejercicio12.css" />
+
+    </head>
+    <body>
+        <h1>API File: Leer un archivo de texto situado en la máquina cliente</h1>
+
+        <p>Seleccione un archivo de texto: </p>
+    
+        <input type="file" id="subirArchivos" onchange="tarea.leerArchivoTexto(this.files)" multiple>
+  
+
+        <p id= "numeroArchivos"></p>
+        <p id="nombreArchivo"></p>
+        <p id="tamañoArchivo"></p>
+        <p id="tipoArchivo"></p>
+        <p id="ultimaModificacion"></p>
+        <p id="contenidoArchivo"></p>  
+        <pre id="areaTexto"></pre>
+        <p id="errorLectura"></p>
+
+        <footer>
+            <a href="http://validator.w3.org/check/referer" hreflang="en-us"> <img src="valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        </footer>
+    </body>
+</html>

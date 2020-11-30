@@ -1,0 +1,34 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 6em 6em 6em 6em;
+  grid-template-rows: 6em 6em 6em 6em 6em 6em;
+  gap: 0px 0px;
+  grid-template-areas:
+    "resultado resultado resultado resultado"
+    "mrc memmen memadd division"
+    "siete ocho nueve multiplicacion"
+    "cuatro cinco seis menos"
+    "uno dos tres mas"
+    "cero punto c igual";
+}
+.resultado { grid-area: resultado; }
+.mrc { grid-area: mrc; }
+.memmen { grid-area: memmen; }
+.memadd { grid-area: memadd; }
+.division { grid-area: division; }
+.siete { grid-area: siete; }
+.ocho { grid-area: ocho; }
+.nueve { grid-area: nueve; }
+.multiplicacion { grid-area: multiplicacion; }
+.cuatro { grid-area: cuatro; }
+.cinco { grid-area: cinco; }
+.seis { grid-area: seis; }
+.menos { grid-area: menos; }
+.uno { grid-area: uno; }
+.dos { grid-area: dos; }
+.tres { grid-area: tres; }
+.mas { grid-area: mas; }
+.cero { grid-area: cero; }
+.punto { grid-area: punto; }
+.c { grid-area: c; }
+.igual { grid-area: igual; }
