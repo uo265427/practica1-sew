@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title>Ejercicio 7</title> 
+        <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+        <meta charset= "UTF-8" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src = "Ejercicio7.js"></script>
+    </head>
+    
+    <body>
+
+        <header>
+            <h1 class = "tituloh1">Star Trek</h1>
+            <input type="button" id="mostrar" 	value="Mostrar h1"	onclick="tarea.mostrar('.tituloh1')"/>
+            <input type="button" id="ocultar" 	value="Ocultar h1"	onclick="tarea.ocultar('.tituloh1')"/>
+        </header>
+
+        <main>
+            <section>
+                <h2>Recorrido de todos los elementos del html</h2>
+                <p class = "recorridoElementos"></p>
+                <input type="button" id="mostrar" 	value="MostrarRecorrido"	onclick="tarea.mostrarRecorrido('.recorridoElementos')"/>
+            </section>
+
+
+            <section>
+                <h2 class = "tituloh2">Star Trek: The Motion Picture</h2>
+                <input type="button" id="mostrar" 	value="Mostrar h2"	onclick="tarea.mostrar('.tituloh2')"/>
+                <input type="button" id="ocultar" 	value="Ocultar h2"	onclick="tarea.ocultar('.tituloh2')"/>
+
+
+                <p class="parrafo">
+                    Star Trek: The Motion Picture (en España, Star Trek: la película) es una película estadounidense de ciencia ficción que forma parte del universo de Star Trek, creado por Gene Roddenberry. 
+    
+                    Fue la primera película de la franquicia basada en la serie de los 60 (Star Trek: La Serie Original), y se estrenó el 7 de diciembre de 1979. 
+        
+                    Su director fue el ganador del Óscar de la Academia Robert Wise; era su tercer film de ciencia ficción. 
+        
+                    Star Trek: The Motion Picture revitalizó la franquicia, que continuaría la historia con nueve secuelas y dos precuelas.
+                </p>
+
+                <input type="button" id="mostrar" 	value="Mostrar parrafo"	onclick="tarea.mostrar('.parrafo')"/>
+                <input type="button" id="ocultar" 	value="Ocultar parrafo"	onclick="tarea.ocultar('.parrafo')"/>  
+                <input type="button" id="traducir" 	value="Translate"	onclick="tarea.traducir('.parrafo')"/>  
+
+                
+            </section>
+
+            <section>
+                <h3 class = "tituloh3"> Equipo y reparto</h3>
+                <input type="button" id="mostrar" 	value="Mostrar h3"	onclick="tarea.mostrar('.tituloh3')"/>
+                <input type="button" id="ocultar" 	value="Ocultar h3"	onclick="tarea.ocultar('.tituloh3')"/>
+
+                <table class = "tabla">
+                    <caption>Actores y doblaje</caption>
+                    <tr>
+                        <td>Actor</td>
+                        <td>Personaje</td>
+                        <td>Doblada en España</td>
+                    </tr>
+            
+                    <tr>
+                        <td>William Shatner</td>
+                        <td>Almirante/Capitán James T. Kirk</td>
+                        <td>Constantino Romero</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Leonard Nimoy</td>
+                        <td>Comandante Spock</td>
+                        <td>Camilo García</td>
+                    </tr>
+            
+                    <tr>
+                        <td>DeForest Kelley</td>
+                        <td>Comandante (Dr.) Leonard McCoy</td>
+                        <td>Pepe Mediavilla</td>
+                    </tr>
+            
+                    <tr>
+                        <td>James Doohan</td>
+                        <td>Comandante Montgomery Scott Luis</td>
+                        <td>Posada Mendoza</td>
+                    </tr>
+            
+                    <tr>
+                        <td>George Takei</td>
+                        <td>Tnte. Comandante Hikaru Sulu</td>
+                        <td>Claudi García</td>
+                    </tr>
+                       
+                </table>
+
+
+                <input type="button" id="borrar" 	value="Borrar tabla"	onclick="tarea.borrar('.tabla')"/>
+
+                <section class = "seccionEquipoActores"></section>
+                <input type="button" id="verEquipo" 	value="Ver equipo"	onclick="tarea.verEquipo('.seccionEquipoActores')"/>
+                
+            </section>
+
+            <section>
+                <h3>Ejemplo para sumar filas y columnas de una tabla:</h3>
+                <table class = "tablaNumeros">
+                    <caption> Números </caption>
+                    <tr>
+                        <th>1</th>
+                        <th>4</th>
+                        <th>7</th>
+                        <th>6</th>
+                        <th>10</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>2</th>
+                        <th>0</th>
+                        <th>7</th>
+                        <th>5</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>11</th>
+                        <th>6</th>
+                        <th>4</th>
+                        <th>1</th>
+                        <th>2</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>5</th>
+                        <th>5</th>
+                        <th>8</th>
+                        <th>1</th>
+                        <th>9</th>
+                    </tr>
+   
+                </table>
+
+                <p class = "sumaTabla"></p>
+                <input type="button" id="sumar" 	value="Sumar tabla"	onclick="tarea.sumarTabla('.sumaTabla')"/>
+
+            </section>
+
+        </main>
+
+        <footer class="piePag">
+            <p>
+                Copyright @2020 María Luisa Grande 
+            </p>
+        </footer>
+
+    </body>
+
+</html>
