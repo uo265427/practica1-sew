@@ -16,3 +16,11 @@ body {
 
 /* Especificidad (0, 0, 1)*/
 p{font-style: italic;}
+
+#t3{
+    font-size: 1.6em;
+}
+
+#t4{
+    font-size: 1.1em;
+}
