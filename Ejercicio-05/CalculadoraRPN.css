@@ -1,8 +1,8 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 3em 3em 3em 3em;
-    grid-template-rows: 3em 3em 3em 3em 3em 3em 3em;
-    gap: 0px 0px;
+    grid-template-columns: 5em 5em 5em 5em;
+    grid-template-rows: 5em 5em 5em 5em 5em 5em 5em 5em 5em;
+    gap: 0em 0em;
     grid-template-areas:
       "pantallaPila pantallaPila pantallaPila pantallaPila"
       "resultado resultado resultado resultado"
