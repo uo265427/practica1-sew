@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 6em 6em 6em 6em;
-    grid-template-rows: 6em 6em 6em 6em 6em 6em 6em 6em 6em;
+    grid-template-columns: 5em 5em 5em 5em;
+    grid-template-rows: 5em 5em 5em 5em 5em 5em 5em 5em 5em;
     gap: 0em 0em;
     grid-template-areas:
       "resultado resultado resultado resultado"
