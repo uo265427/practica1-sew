@@ -4,15 +4,14 @@ h1 {
     color: rgb(245, 240, 245);
     font-weight: bolder;
     text-align: center; 
-    padding: 150px 25px;   
 }
 
 
 /* Especificidad (0, 0, 1)*/
 body {
-    font: 400 15px Tahoma, sans-serif;
+    font: 400 1.4em Tahoma, sans-serif;
     line-height: 1.8;
-    color: rgb(121, 114, 121);
+    color: black;
 }
 
 /* Especificidad (0, 0, 1)*/
