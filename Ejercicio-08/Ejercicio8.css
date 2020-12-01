@@ -12,11 +12,11 @@ body {
     font: 400 1.2em Tahoma, sans-serif;
     line-height: 1.8;
     color: black;
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(245, 240, 245);
 }
 
 /* Especificidad (0, 0, 1)*/
 p{font-style: italic;
     color: black;
-    background-color: rgb(163, 163, 163);
+    background-color:rgb(245, 240, 245);
 }
