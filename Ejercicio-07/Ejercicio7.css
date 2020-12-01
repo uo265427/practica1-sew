@@ -4,18 +4,21 @@ h1 {
     color: rgb(245, 240, 245);
     font-weight: bolder;
     text-align: center; 
-     font-size: 2.5;
+    font-size: 2.5em;
 }
 
 
 /* Especificidad (0, 0, 1)*/
 body {
     line-height: 1.8;
-    color: rgb(121, 114, 121);
-    font-size: 1.1em;
+    color:black;
+    background-color: rgb(245, 240, 245);
+    font-size: 1em;
 }
 
 /* Especificidad (0, 0, 1)*/
 p{font-style: italic;
-    font-size: 1.1em;
+    font-size: 1em;
+    color:black;
+    background-color: rgb(245, 240, 245);
 }
