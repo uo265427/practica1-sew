@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 6em 6em 6em 6em;
+    grid-template-rows: 6em 6em 6em 6em 6em 6em 6em 6em;
+    gap: 0em 0em;
+    grid-template-areas:
+      "pantallaPila pantallaPila pantallaPila pantallaPila"
+      "resultado resultado resultado resultado"
+      "moda  media mediana  division"
+      "siete ocho nueve multiplicacion"
+      "cuatro cinco seis menos"
+      "uno dos tres mas"
+      "cero punto c enter";
+    
+  }
+  .moda {grid-area: moda;}
+  .media {grid-area: media;}
+  .mediana {grid-area: mediana;}
+  .pantallaPila {grid-area: pantallaPila;}
+  .resultado { grid-area: resultado;}
+  .division { grid-area: division; }
+  .siete { grid-area: siete; background-color: rgb(134, 224, 252); color: black;}
+  .ocho { grid-area: ocho; background-color: rgb(134, 224, 252); color: black;}
+  .nueve { grid-area: nueve; background-color:rgb(134, 224, 252); color: black;}
+  .multiplicacion { grid-area: multiplicacion; }
+  .cuatro { grid-area: cuatro; background-color:rgb(134, 224, 252); color: black;}
+  .cinco { grid-area: cinco; background-color: rgb(134, 224, 252); color: black;}
+  .seis { grid-area: seis; background-color: rgb(134, 224, 252); color: black;}
+  .menos { grid-area: menos; }
+  .uno { grid-area: uno; background-color: rgb(134, 224, 252); color: black;}
+  .dos { grid-area: dos; background-color:rgb(134, 224, 252); color: black;}
+  .tres { grid-area: tres; background-color: rgb(134, 224, 252); color: black;}
+  .mas { grid-area: mas; }
+  .cero { grid-area: cero; background-color:rgb(134, 224, 252); color: black;}
+  .punto { grid-area: punto; }
+  .c { grid-area: c; }
+  .enter { grid-area: enter; }
