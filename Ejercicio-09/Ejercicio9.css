@@ -12,6 +12,7 @@ body {
     font: 400 1.2em Tahoma, sans-serif;
     line-height: 1.8;
     color:black;
+    background-color: white;
 }
 
 /* Especificidad (0, 0, 1)*/
