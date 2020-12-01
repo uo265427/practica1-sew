@@ -12,7 +12,8 @@ h1 {
 body {
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
-    color: rgb(121, 114, 121);
+        color: black;
+    background-color: white;
 }
 
 #mapa {
