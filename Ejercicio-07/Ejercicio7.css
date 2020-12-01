@@ -10,7 +10,7 @@ h1 {
 h2{
     
     color:black;
-    background-color: rgb(245, 240, 245);
+    background-color: white;    
     font-size: 2em;
 
 }
@@ -18,7 +18,7 @@ h2{
 h3{
     
     color:black;
-    background-color: rgb(245, 240, 245);
+    background-color: white;    
     font-size: 1.9em;
 
 }
@@ -27,7 +27,7 @@ h3{
 body {
     line-height: 1.8;
     color:black;
-    background-color: rgb(245, 240, 245);
+    background-color: white;
     font-size: 1.2em;
 }
 
@@ -35,5 +35,5 @@ body {
 p{font-style: italic;
     font-size: 1.2em;
     color:black;
-    background-color: rgb(245, 240, 245);
+    background-color: white;
 }
